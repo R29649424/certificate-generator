@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sty.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <div class="content">
+      <header>
+        <h1>Automatic certificate Generator</h1>
+        <img src="../img/logo.jpg" alt="Atutomatic certificate Generator">
+    </header>
+    <main>
+        <h2><a href="https://ecelluietkuk.web.app/">E-Cell</a></h2>
+        <h4>Get Your Participation certificate</h4>
+        <label for="name">Type your Name</label>
+        <input required placeholder="Enter Your Name" type="text" name="Name" id="Name" autocomplete="name">
+        <button id="submit">Get certificate</button>
+    </main>
+    </div>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="./a1.js"></script>
+</body>
+</html>
